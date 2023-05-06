@@ -114,6 +114,26 @@ p {
   transition: all 0.25s ease-in-out;
 }
 
+/*! ===== Neo header ===== */
+ header .fixed-top {
+  transition: all 0.4s ease 0s;
+  position: fixed;
+  z-index: 1030;
+  right: 0;
+  left: 0;
+  top: 50px;
+  background-color: #fff;
+}
+header .nav-fixed {
+  top: 0;
+  padding: 0px;
+  background-color: #fff;
+  height: 100px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
+  border-bottom: none;
+  z-index: 999 !important;
+}
+
 /*! ========== header ========== */
 
 .header__top {
